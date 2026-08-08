@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Game - Prototype</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="hud">
+      <div id="speed">Speed: 0</div>
+      <div id="damage">Damage: 0%</div>
+      <div id="controls-hint">WASD / Arrow keys to drive · E to enter/exit · M to open mod menu</div>
+    </div>
+    <div id="touch-controls" class="hidden">
+      <div id="left-joy" class="joy">◀</div>
+      <div id="right-joy" class="joy">▶</div>
+      <button id="throttle" class="btn">▲</button>
+      <button id="brake" class="btn">▼</button>
+      <button id="enter" class="btn">E</button>
+    </div>
+
+    <div id="mod-menu" class="hidden panel">
+      <h3>Mod Menu</h3>
+      <label><input type="checkbox" id="toggle-fly"> Fly</label>
+      <label><input type="checkbox" id="toggle-noclip"> Noclip</label>
+      <button id="close-mod">Close</button>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

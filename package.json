@@ -1,0 +1,18 @@
+{
+  "name": "my_game_prototype",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.158.0",
+    "cannon-es": "^0.20.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}
